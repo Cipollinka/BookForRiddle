@@ -45,7 +45,6 @@ const SettingsScreen = () => {
             <ImageBackground
                 source={require('../assets/background/1.png')}
                 style={styles.imageBackground}
-                resizeMode="cover"
             >
                 <LinearGradient
                     colors={['rgba(0,0,0,0)', '#000000']}
